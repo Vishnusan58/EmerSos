@@ -4,7 +4,6 @@
   align-items: center;
   height: 100vh;
   width: 100%;
-  flex-direction: column;
 }
 
 .sosButton {
@@ -38,39 +37,10 @@
   cursor: not-allowed;
 }
 
-.errorMessage {
-  margin-top: 1.5rem;
-  padding: 1rem;
-  background-color: rgba(255, 220, 220, 0.9);
-  border: 1px solid #ffcccb;
-  border-radius: 0.5rem;
-  color: #721c24;
-  max-width: 500px;
-  text-align: left;
-}
-
-.errorMessage p {
-  margin: 0.5rem 0;
-}
-
-.errorMessage ul {
-  margin: 0.5rem 0;
-  padding-left: 1.5rem;
-}
-
-.errorMessage li {
-  margin: 0.25rem 0;
-}
-
 @media (max-width: 768px) {
   .sosButton {
     width: 90%;
     height: 180px;
     font-size: 1.8rem;
-  }
-
-  .errorMessage {
-    width: 90%;
-    font-size: 0.9rem;
   }
 }
