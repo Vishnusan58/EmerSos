@@ -72,7 +72,7 @@ export default function Home() {
         <p className="mb-3">When you press the SOS button:</p>
         <ul className="list-disc list-inside text-left mb-4">
           <li>Your current location will be detected</li>
-          <li>A call will be placed to emergency number: <strong>108</strong></li>
+          <li>A call will be placed to emergency number: <strong>1008</strong></li>
           <li>An SMS with your location will be sent to: <strong>1234567890</strong></li>
         </ul>
         <p className="text-sm text-gray-600">This is a demo application. In a real emergency, please dial your local emergency services directly.</p>
